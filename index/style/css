@@ -1,0 +1,225 @@
+/* 1) Для селектора «body» */
+body {
+    [span_0](start_span)/* установить цвет фона тела страницы #7D8085[span_0](end_span) */
+    background: #7D8085;
+    [span_1](start_span)/* установить шрифт тела страницы 74% Arial, Sans-Serif[span_1](end_span) */
+    font: 74% Arial, Sans-Serif;
+}
+
+/* 2) Для селектора (класса) «.toph» */
+.toph {
+    [span_2](start_span)/* фоновый рисунок «top.jpg», без полей, высотой 39рх, с выравниванием по центру[span_2](end_span) */
+    background: url(top.jpg) no-repeat center;
+    height: 39px;
+    margin: 0;
+    padding: 0;
+}
+
+/* 3) Для селектора (класса) «.content» */
+.content {
+    [span_3](start_span)/* повторяющийся фоновый рисунок «bg.jpg», без полей, шириной 800px, с выравниванием по центру[span_3](end_span) */
+    background: url(bg.jpg) repeat center;
+    width: 800px;
+    /* Выравнивание по центру для блочного элемента фиксированной ширины */
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* 4) Для селектора (класса) «.title» */
+.title {
+    [span_4](start_span)/* фоновый рисунок «logo.jpg», выравниванием по левой стороне[span_4](end_span) */
+    background: url(logo.jpg) no-repeat left;
+    [span_5](start_span)/* поля от верхнего края 10рх, от левого 40рх, высотой 28рх[span_5](end_span) */
+    padding: 10px 0 0 40px;
+    height: 28px;
+    [span_6](start_span)/* размер шрифта 140%, полужирный, цвет #F29900[span_6](end_span) */
+    font: bold 140% Arial, Sans-Serif;
+    color: #F29900;
+}
+
+/* 5) Для селектора (класса) «.right» */
+.right {
+    [span_7](start_span)/* обтекание слева[span_7](end_span) */
+    float: left;
+    [span_8](start_span)/* отступ от правого края 15рх, и полем от правого края 1em[span_8](end_span) */
+    margin: 0 15px 0 0;
+    padding: 0 1em 0 0;
+    [span_9](start_span)/* ширина слоя 170рх[span_9](end_span) */
+    width: 170px;
+    [span_10](start_span)/* размер шрифта 95%, полужирный[span_10](end_span) */
+    font-size: 95%;
+    font-weight: bold;
+}
+
+/* 6) Для селектора (класса) «.footer» */
+.footer {
+    [span_11](start_span)/* запрет на обтекание одновременно с правого и левого края[span_11](end_span) */
+    clear: both;
+    [span_12](start_span)/* фоновый рисунок «bot.jpg» выравниванием по центру[span_12](end_span) */
+    background: url(bot.jpg) no-repeat center;
+    [span_13](start_span)/* выравнивание текста по центру[span_13](end_span) */
+    text-align: center;
+    [span_14](start_span)/* высота слоя в 37рх[span_14](end_span) */
+    height: 37px;
+    [span_15](start_span)/* автоматическая ширина слоя «auto»[span_15](end_span) */
+    width: auto;
+}
+
+/* 7) Для селектора (класса) «.center» */
+.center {
+    [span_16](start_span)/* обтекание справа[span_16](end_span) */
+    float: right;
+    [span_17](start_span)/* ширина слоя 530рх[span_17](end_span) */
+    width: 530px;
+    [span_18](start_span)/* размер шрифта 95%, полужирный[span_18](end_span) */
+    font-size: 95%;
+    font-weight: bold;
+    [span_19](start_span)/* цвет текста #FFF[span_19](end_span) */
+    color: #FFF;
+    [span_20](start_span)/* поля и отступы[span_20](end_span) */
+    margin: 0px 0 5px 35px;
+    padding: 0;
+}
+
+/* 8) Установить цвет ссылок для центрального блока */
+.center a {
+    [span_21](start_span)/* цвет основной ссылки #F29900[span_21](end_span) */
+    color: #F29900;
+}
+
+.center a:hover {
+    [span_22](start_span)/* цвет ссылки под курсором #FFF[span_22](end_span) */
+    color: #FFF;
+}
+
+/* 9) Установить для блока «.date» */
+.date {
+    [span_23](start_span)/* цвет основного текста #ссс[span_23](end_span) */
+    color: #ccc;
+    [span_24](start_span)/* выравнивание текста по правому краю[span_24](end_span) */
+    text-align: right;
+    [span_25](start_span)/* поля и отступы[span_25](end_span) */
+    margin: 4px 0 5px 0;
+    padding: 0.4em 0;
+    [span_26](start_span)/* верхняя граница блока толщиной в 1рх цветом #555[span_26](end_span) */
+    border-top: 1px solid #555;
+}
+
+/* 10) Цвет ссылки в «.date» */
+.date a {
+    [span_27](start_span)color: #ccc;[span_27](end_span)
+}
+
+/* 11) Цвет ссылки в «.right» */
+.right a {
+    [span_28](start_span)color: #7D8085;[span_28](end_span)
+}
+
+/* 12) Цвет тегов параграфа и ссылок */
+p, a {
+    [span_29](start_span)color: #888;[span_29](end_span)
+}
+
+/* 13) Для селектора «а» */
+a {
+    [span_30](start_span)/* наследование фона[span_30](end_span) */
+    background: inherit;
+    [span_31](start_span)/* выключить стили текста (убрать подчеркивание)[span_31](end_span) */
+    text-decoration: none;
+}
+
+/* 14) Для селектора «р» */
+p {
+    [span_32](start_span)/* отступы и поля[span_32](end_span) */
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+/* 15) Для селектора «hr» */
+hr {
+    [span_33](start_span)/* высота 1px[span_33](end_span) */
+    height: 1px;
+    [span_34](start_span)/* основной и фоновый цвет в #eee[span_34](end_span) */
+    background-color: #eee;
+    color: #eee;
+    [span_35](start_span)/* убрать «border»[span_35](end_span) */
+    border: none;
+}
+
+/* 16) Для селектора заголовка «h1» */
+h1 {
+    [span_36](start_span)/* убрать отступы и поля[span_36](end_span) */
+    margin: 0;
+    padding: 0;
+    [span_37](start_span)/* цвет в #FFF[span_37](end_span) */
+    color: #FFF;
+    [span_38](start_span)/* жирный шрифт размера 1.8em, гарнитур Arial, Sans-Serif[span_38](end_span) */
+    font: bold 1.8em Arial, Sans-Serif;
+    [span_39](start_span)/* наследование фона[span_39](end_span) */
+    background: inherit;
+    [span_40](start_span)/* свойство letter-spacing, равным «-1px»[span_40](end_span) */
+    letter-spacing: -1px;
+}
+
+/* 17) Ссылки «а», находящиеся в заголовке «h1» */
+h1 a {
+    [span_41](start_span)/* цвет в #FFF, наследование фона[span_41](end_span) */
+    color: #FFF;
+    background: inherit;
+}
+
+/* 18) Для селектора заголовка «h2» */
+h2 {
+    [span_42](start_span)/* наследование цвета фона[span_42](end_span) */
+    background: inherit;
+    [span_43](start_span)/* отступы и поля[span_43](end_span) */
+    margin: 10px 0 10px 0;
+    padding: 0;
+    [span_44](start_span)/* основной цвет в #F29900[span_44](end_span) */
+    color: #F29900;
+    [span_45](start_span)/* размер шрифта 140%, жирный[span_45](end_span) */
+    font: bold 140% Arial, Sans-Serif;
+}
+
+/* 19) Ссылки «а» находящиеся в заголовке «h2» */
+h2 a {
+    [span_46](start_span)/* цвет в #F29955[span_46](end_span) */
+    color: #F29955;
+}
+
+h2 a:hover {
+    [span_47](start_span)/* тот же цвет и убрать подчёркивание[span_47](end_span) */
+    color: #F29955;
+    text-decoration: none;
+}
+
+/* 20) Стили элементов списка */
+ul {
+    [span_48](start_span)/* margin: 5px 0 20px 15px[span_48](end_span) */
+    margin: 5px 0 20px 15px;
+    [span_49](start_span)/* padding: 0[span_49](end_span) */
+    padding: 0;
+    [span_50](start_span)/* list-style: none[span_50](end_span) */
+    list-style: none;
+}
+
+li {
+    [span_51](start_span)/* list-style-type: square[span_51](end_span) */
+    list-style-type: square;
+    [span_52](start_span)/* color: #F29900[span_52](end_span) */
+    color: #F29900;
+    [span_53](start_span)/* margin: 0 0 0px 0[span_53](end_span) */
+    margin: 0 0 0 0;
+    [span_54](start_span)/* padding: 0 0 0 0[span_54](end_span) */
+    padding: 0 0 0 0;
+}
+
+li a {
+    [span_55](start_span)/* color: #7D8085[span_55](end_span) */
+    color: #7D8085;
+}
+
+li a:hover {
+    [span_56](start_span)/* color: #F29900[span_56](end_span) */
+    color: #F29900;
+}
